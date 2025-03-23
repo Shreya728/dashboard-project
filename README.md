@@ -18,7 +18,7 @@ A responsive admin dashboard built with Next.js 14, Tailwind CSS, and React Hook
 🔑 Admin Login (Demo)
 Field	Value
 Email	admin@example.com
-Password	password123
+Password	= password123
 
 
 🛠️ Setup Instructions
