@@ -63,6 +63,12 @@ Now visit: http://localhost:3000
 Username: admin@example.com
 Password:password123
 
+10.DEPLOYED ON VERCEL
+LIVE URL= https://dashboard-project-psi-two.vercel.app/dashboard
+
+Username: admin@example.com
+Password:password123
+
 🌐 Deployment
 1. Push the project to GitHub.
 2. Visit https://vercel.com
