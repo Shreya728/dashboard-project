@@ -6,10 +6,16 @@ import Header from '@/components/Header';
 import Sidebar from '@/components/Sidebar';
 import PostTable from '@/components/PostTable';
 import Spinner from '@/components/ui/spinner';
+type Post = {
+  userId: number;
+  id: number;
+  title: string;
+  body: string;
+};
 
 export default function DashboardClient() {
   const router = useRouter();
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState<Post[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const [page, setPage] = useState(1);
